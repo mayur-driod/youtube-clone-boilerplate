@@ -1,0 +1,152 @@
+@import url(https://fonts.google.com/share?selection.family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900);
+
+body{
+    background-color: rgb(24, 24, 24);
+    font-family: Roboto;
+}
+
+h2{
+    font-size: 20px;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    width: 10em;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+}
+
+tr{
+    display: flex;
+    align-items: left;
+}
+
+
+#top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#bar{
+    position: absolute;
+    right: 0vh;
+}
+
+#searchbar{
+    width: 60vh;
+    height: 4vh;
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+.search{
+    display: flex;
+    direction: row;
+    justify-content: space-around;
+    position: absolute;
+    top: 0em;
+    left: 21em;
+    width: 75%;
+    margin-top: 10px;
+}
+
+#display{
+    position: absolute;
+    top: 10vh;
+    left: 12em;
+}
+
+#display button{
+    background-color: rgb(56, 56, 56);
+    color: white;
+    border-radius: 20px;
+    width: auto;
+    height: 25px;
+    border: none;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+#video1{
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 14vh;
+    left: 12em;
+
+}
+
+#video2{
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 42vh;
+    left: 12em;
+
+}
+
+#video3{
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 72vh;
+    left: 12em;
+
+}
+
+#video1 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15em;
+    height: auto;
+    margin: 20px;
+}
+
+#video2 div{
+    width: 15em;
+    height: auto;
+    margin: 20px;
+}
+
+#video3 div{
+    width: 15em;
+    height: auto;
+    margin: 20px;
+}
+
+#video2 div img{
+    width: 150px;
+}
+
+#video1 div img{
+    width: 150px;
+}
+
+#video3 div img{
+    width: 150px;
+}
+
+hr{
+    height: 1px;
+    background-color: white;
+}
+
+#hr1{
+    position: relative;
+}
+
+th{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+#tt img{
+    width: 20px;
+    height: 20px;
+}
